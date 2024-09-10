@@ -1,8 +1,10 @@
-<p align="center" style="font-size: 32px"> Performance de banco de dados: a magia dos índices </p>
+# Performance de banco de dados: a magia dos índices
 
 Se chegou até aqui é porque viu minha palestra e ela te despertou interesse de alguma forma. Aqui separei algumas queries úteis para avaliar a performance do seu banco caso não disponha de nenhuma ferramenta de monitoramento. Aqui você tem um arquivo SQL com um banco com duas tabelas já indexadas e populadas com 1M de linhas cada.
 
 ## Modelagem do banco de dados:
+
+<p align="center"><img src="https://github.com/user-attachments/assets/57c0a497-b923-4207-a6d3-d4b6319c9e56" width="800"></p>
 
 ## As queries mais executadas:
 ```sql
@@ -69,5 +71,7 @@ LIMIT 10;
 - **[High Performance Mysql](https://www.amazon.com.br/High-Performance-MySQL-Strategies-Operating/dp/1492080519)**
 - **[Visual Explain](https://dev.mysql.com/doc/workbench/en/wb-performance-explain.html)**
 - **[How to use Indexes](https://dev.mysql.com/doc/refman/8.4/en/mysql-indexes.html)**
+
+<p align="center"><img src="https://github.com/user-attachments/assets/c863184a-fd45-4d56-b60d-a5debe40d8d1" width="400"></p>
 
 Desde já muito obrigado 🤗
